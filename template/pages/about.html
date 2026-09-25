@@ -1,0 +1,13 @@
+{{> header}}
+<section class="section page-header">
+  <h1>About {{business.logoText}}</h1>
+</section>
+<section class="section about-body">
+  {{{page.bodyHtml}}}
+  <p class="about-meta">{{business.yearsInBusiness}} years in business &middot; run by {{business.founderName}}</p>
+</section>
+<section class="section section-alt cta-band">
+  <h2>Want to talk to us directly?</h2>
+  <a class="btn btn-primary" target="_blank" rel="noopener" href="https://wa.me/{{business.whatsappNumber}}?text={{business.whatsappDefaultMessageEncoded}}">Chat on WhatsApp</a>
+</section>
+{{> footer}}

@@ -1,0 +1,22 @@
+{{> header}}
+<section class="section page-header">
+  <h1>Services</h1>
+  <p>{{page.intro}}</p>
+</section>
+
+<section class="services-grid">
+  {{#each page.items}}
+  <article class="service-card">
+    <img src="{{this.image}}" alt="" width="320" height="220" loading="lazy">
+    <h2>{{this.name}}</h2>
+    <p>{{this.description}}</p>
+  </article>
+  {{/each}}
+</section>
+
+<section class="section section-alt cta-band">
+  <h2>Not sure what you need?</h2>
+  <p>Send us a photo of your space on WhatsApp and we'll suggest options and a rough budget, free.</p>
+  <a class="btn btn-primary" target="_blank" rel="noopener" href="https://wa.me/{{business.whatsappNumber}}?text={{business.whatsappDefaultMessageEncoded}}">Ask on WhatsApp</a>
+</section>
+{{> footer}}

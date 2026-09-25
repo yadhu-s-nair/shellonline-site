@@ -1,0 +1,32 @@
+{{> header}}
+<section class="section page-header">
+  <h1>Gallery &amp; Reviews</h1>
+  <p>{{page.intro}}</p>
+</section>
+
+<section class="gallery-grid">
+  {{#each page.images}}
+  <figure class="gallery-item">
+    <img src="{{this.src}}" alt="{{this.alt}}" width="400" height="300" loading="lazy">
+    <figcaption>{{this.caption}}</figcaption>
+  </figure>
+  {{/each}}
+</section>
+
+<section class="section section-alt">
+  <h2>What customers say</h2>
+  <div class="testimonials">
+    {{#each page.testimonials}}
+    <blockquote class="testimonial">
+      <p>&ldquo;{{this.quote}}&rdquo;</p>
+      <cite>{{this.author}}</cite>
+    </blockquote>
+    {{/each}}
+  </div>
+</section>
+
+<section class="section cta-band">
+  <h2>Like what you see?</h2>
+  <a class="btn btn-primary" target="_blank" rel="noopener" href="https://wa.me/{{business.whatsappNumber}}?text={{business.whatsappDefaultMessageEncoded}}">Get your free quote</a>
+</section>
+{{> footer}}

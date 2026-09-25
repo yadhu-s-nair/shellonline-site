@@ -1,0 +1,5 @@
+node_modules/
+template/dist/
+template/dist-*/
+.DS_Store
+.claude/

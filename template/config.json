@@ -1,0 +1,94 @@
+{
+  "business": {
+    "name": "Sample Interiors Studio",
+    "tagline": "Modular kitchens & home interiors in Bengaluru",
+    "logoText": "Sample Interiors",
+    "phone": "+91 90000 00000",
+    "whatsappNumber": "919000000000",
+    "whatsappDefaultMessage": "Hi, I found your website and would like a quote for my home.",
+    "email": "hello@example.com",
+    "addressLine1": "12, 1st Cross, Sample Layout",
+    "addressLine2": "Bengaluru, Karnataka 560001",
+    "area": "Sample Layout",
+    "city": "Bengaluru",
+    "mapEmbedSrc": "https://www.google.com/maps?q=Sample+Layout+Bengaluru&output=embed",
+    "mapLink": "https://www.google.com/maps/search/?api=1&query=Sample+Layout+Bengaluru",
+    "instagramUrl": "",
+    "facebookUrl": "",
+    "googleBusinessUrl": "",
+    "yearsInBusiness": "8",
+    "founderName": "Studio Founder"
+  },
+  "theme": {
+    "primaryColor": "#1f6f54",
+    "secondaryColor": "#0f3d30",
+    "accentColor": "#e8a13a",
+    "textColor": "#222222",
+    "backgroundColor": "#ffffff",
+    "backgroundAltColor": "#f6f4ef",
+    "headingFont": "'Segoe UI', system-ui, -apple-system, Roboto, sans-serif",
+    "bodyFont": "system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+  },
+  "sample": {
+    "isUnpaidSample": true,
+    "noticeText": "This is a free unpaid sample website made by shellonline to show what we could build for this business. It is not their official site."
+  },
+  "nav": [
+    { "label": "Home", "href": "index.html" },
+    { "label": "Services", "href": "services.html" },
+    { "label": "About", "href": "about.html" },
+    { "label": "Gallery", "href": "gallery.html" },
+    { "label": "Contact", "href": "contact.html" }
+  ],
+  "pages": {
+    "home": {
+      "title": "Sample Interiors Studio | Modular Kitchens & Interiors in Bengaluru",
+      "metaDescription": "Sample Interiors Studio designs modular kitchens and home interiors in Sample Layout, Bengaluru. See our work and get a free quote on WhatsApp.",
+      "heroHeadline": "Modular kitchens & interiors your neighbours will ask about",
+      "heroSub": "Serving Sample Layout and nearby areas of Bengaluru. Real projects, honest pricing, on-time delivery.",
+      "heroImage": "assets/img/hero.svg",
+      "highlights": [
+        { "title": "8+ years", "detail": "designing homes across Bengaluru" },
+        { "title": "100+ projects", "detail": "delivered on time and on budget" },
+        { "title": "Free site visit", "detail": "and a same-week quote" }
+      ]
+    },
+    "services": {
+      "title": "Services | Sample Interiors Studio",
+      "metaDescription": "Modular kitchens, wardrobes, false ceilings and full home interior design services from Sample Interiors Studio, Bengaluru.",
+      "intro": "From a single modular kitchen to a full home fit-out, we handle design, materials and installation.",
+      "items": [
+        { "name": "Modular Kitchens", "description": "Custom layouts in laminate, acrylic or veneer finishes, built to your budget.", "image": "assets/img/service-kitchen.svg" },
+        { "name": "Wardrobes & Storage", "description": "Sliding, hinged and walk-in wardrobes designed to fit every room.", "image": "assets/img/service-wardrobe.svg" },
+        { "name": "False Ceiling & Lighting", "description": "POP and gypsum ceilings with cove and accent lighting.", "image": "assets/img/service-ceiling.svg" },
+        { "name": "Full Home Interiors", "description": "End-to-end design and execution for 1BHK to villa projects.", "image": "assets/img/service-home.svg" }
+      ]
+    },
+    "about": {
+      "title": "About Us | Sample Interiors Studio",
+      "metaDescription": "Sample Interiors Studio is a Bengaluru-based interior design and modular kitchen studio with 8+ years of experience.",
+      "bodyHtml": "<p>Sample Interiors Studio has been designing kitchens and homes in Sample Layout and nearby areas of Bengaluru for over 8 years. We work directly with each family, from the first site visit to the final handover, so there is always one point of contact and no surprises on the bill.</p><p>We source materials locally, keep a small team so quality stays consistent, and show you exactly what you are paying for before work begins.</p>"
+    },
+    "contact": {
+      "title": "Contact Us | Sample Interiors Studio",
+      "metaDescription": "Get in touch with Sample Interiors Studio in Sample Layout, Bengaluru, for a free site visit and quote.",
+      "intro": "Tell us about your space and we'll get back to you within a day. For a faster reply, use WhatsApp.",
+      "formActionEmail": "hello@example.com"
+    },
+    "gallery": {
+      "title": "Gallery & Reviews | Sample Interiors Studio",
+      "metaDescription": "See finished modular kitchen and interior projects by Sample Interiors Studio, and read reviews from Bengaluru customers.",
+      "intro": "A few recent projects. Ask us for more photos from your area.",
+      "images": [
+        { "src": "assets/img/gallery/project-1.svg", "alt": "Modular kitchen with light oak cabinets", "caption": "Modular kitchen, Sample Layout" },
+        { "src": "assets/img/gallery/project-2.svg", "alt": "Living room with false ceiling and cove lighting", "caption": "Living room fit-out, Bengaluru" },
+        { "src": "assets/img/gallery/project-3.svg", "alt": "Walk-in wardrobe with sliding doors", "caption": "Walk-in wardrobe" },
+        { "src": "assets/img/gallery/project-4.svg", "alt": "Compact 1BHK kitchen renovation", "caption": "1BHK kitchen renovation" }
+      ],
+      "testimonials": [
+        { "quote": "Delivered our kitchen exactly on the date they promised, and it looked better than the 3D design.", "author": "Priya R., Sample Layout" },
+        { "quote": "Good communication throughout and no hidden costs at the end.", "author": "Arjun K., Bengaluru" }
+      ]
+    }
+  }
+}

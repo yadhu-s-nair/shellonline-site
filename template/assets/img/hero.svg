@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360" role="img" aria-label="Hero photo placeholder">
+  <rect width="100%" height="100%" fill="#1f6f54"/>
+  <rect x="1" y="1" width="478" height="358" fill="none" stroke="#ffffff55" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="50%" y="50%" font-family="system-ui, sans-serif" font-size="25" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">Hero photo</text>
+  <text x="50%" y="62%" font-family="system-ui, sans-serif" font-size="16" fill="#ffffffb0" text-anchor="middle" dominant-baseline="middle">Replace with a real photo</text>
+</svg>

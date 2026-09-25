@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" role="img" aria-label="Project 2 placeholder">
+  <rect width="100%" height="100%" fill="#0f3d30"/>
+  <rect x="1" y="1" width="398" height="298" fill="none" stroke="#ffffff55" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="50%" y="50%" font-family="system-ui, sans-serif" font-size="21" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">Project 2</text>
+  <text x="50%" y="62%" font-family="system-ui, sans-serif" font-size="13" fill="#ffffffb0" text-anchor="middle" dominant-baseline="middle">Replace with a real photo</text>
+</svg>

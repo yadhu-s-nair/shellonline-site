@@ -1,0 +1,38 @@
+{{> header}}
+<section class="section page-header">
+  <h1>Contact</h1>
+  <p>{{page.intro}}</p>
+</section>
+
+<section class="section contact-primary">
+  <a class="btn btn-primary btn-large" target="_blank" rel="noopener" href="https://wa.me/{{business.whatsappNumber}}?text={{business.whatsappDefaultMessageEncoded}}">
+    Message us on WhatsApp &mdash; fastest reply
+  </a>
+  <p class="contact-or">or call <a href="tel:{{business.phone}}">{{business.phone}}</a></p>
+</section>
+
+<section class="section section-alt">
+  <h2>Send your details</h2>
+  <p class="form-note">Prefer not to use WhatsApp? Fill this in — it opens your email app addressed to us.</p>
+  <form class="enquiry-form" action="mailto:{{page.formActionEmail}}" method="post" enctype="text/plain">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="Name" required>
+
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="Phone" required>
+
+    <label for="message">What do you need?</label>
+    <textarea id="message" name="Message" rows="4" required></textarea>
+
+    <button type="submit" class="btn btn-outline">Send Enquiry</button>
+  </form>
+</section>
+
+<section class="section">
+  <h2>Visit us</h2>
+  <p>{{business.addressLine1}}<br>{{business.addressLine2}}</p>
+  <div class="map-embed">
+    <iframe src="{{business.mapEmbedSrc}}" width="100%" height="320" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map to {{business.logoText}}"></iframe>
+  </div>
+</section>
+{{> footer}}
